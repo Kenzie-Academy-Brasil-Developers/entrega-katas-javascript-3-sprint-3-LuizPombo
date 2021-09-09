@@ -14,36 +14,40 @@ function kata1() {
     for(let i = 1; i <= 25; i++){
          result.push (i);
     }
-    showResult("katas1", result);
+    return result;
+    
 }
-kata1()
+showResult("katas1", kata1());
+
 
 function kata2() {
     let result = [];
     for(let i = 25; i > 0; i--){
         result.push (i);
     }
-    showResult("katas2", result);
+    return result;
 }
-kata2()
+showResult("katas2", kata2());
+
 
 function kata3() {
     let result = [];
     for(let i = -1; i >= -25; i--){
         result.push (i);
     }
-    showResult("katas3", result);
+    return result;
 }
-kata3()
+showResult("katas3", kata3());
 
 function kata4() {
     let result = [];
     for(let i = -25; i < 0; i++){
         result.push (i);
     }
-    showResult("katas4", result);
+    return result;
 }
-kata4()
+showResult("katas4", kata4());
+
 
 function kata5() {
     let result = [];
@@ -52,9 +56,10 @@ function kata5() {
             result.push (i);
         }
     }
-    showResult("katas5", result);
+    return result;
 }
-kata5()
+showResult("katas5", kata5());
+
 
 function kata6() {
     let result = [];
@@ -63,9 +68,10 @@ function kata6() {
             result.push (i);
         }
     }
-    showResult("katas6", result);
+    return result;
+    
 }
-kata6()
+showResult("katas6", kata6());
 
 function kata7() {
     let result = [];
@@ -74,9 +80,10 @@ function kata7() {
             result.push (i);
         }
     }
-    showResult("katas7", result);
+    return result;
+    
 }
-kata7()
+showResult("katas7", kata7());
 
 function kata8() {
     let result = [];
@@ -85,9 +92,10 @@ function kata8() {
             result.push (i);
         }
     }
-    showResult("katas8", result);
+    return result;
+    
 }
-kata8()
+showResult("katas8", kata8());
 
 function kata9() {
     let result = [];
@@ -96,15 +104,17 @@ function kata9() {
             result.push (i);
         }
     }
-    showResult("katas9", result);
+    return result;
+    
 }
-kata9()
+showResult("katas9", kata9());
 
 function kata10() {
     let result = sampleArray
-    showResult("katas10", result);
+    return result;
+    
 }
-kata10()
+showResult("katas10", kata10());
 
 function kata11() {
     let result = [];
@@ -113,9 +123,10 @@ function kata11() {
             result.push (sampleArray[i])
         }
     }
-    showResult("katas11", result);
+    return result;
+    
 }
-kata11()
+showResult("katas11", kata11());
 
 function kata12() {
     let result = [];
@@ -124,9 +135,10 @@ function kata12() {
             result.push (sampleArray[i])
         }
     }
-    showResult("katas12", result);
+    return result;
+    
 }
-kata12()
+showResult("katas12", kata12());
 
 function kata13() {
     let result = [];
@@ -135,54 +147,62 @@ function kata13() {
             result.push (sampleArray[i]);
         }
     }
-    showResult("katas13", result);
+    return result;
+    
 }
-kata13()
+showResult("katas13", kata13());
+
 
 function kata14() {
     let result = [];
     for(i = 0; i < sampleArray.length; i++){
         result.push(sampleArray[i] * sampleArray[i])
     }
-    showResult("katas14", result);
+    return result;
+    
 }
-kata14()
+showResult("katas14", kata14());
+
 
 function kata15() {
     let result = 0;
     for(i = 1; i <= 20; i++){
         result = result + i
     }
-    showResult("katas15", result);
+    return result;
+    
 }
-kata15()
+showResult("katas15", kata15());
 
 function kata16() {
     let result = 0;
     for(i = 0; i < sampleArray.length; i++){
         result = result + sampleArray[i];
     }
-    showResult("katas16", result);
+    return result;
+    
 }
-kata16()
+showResult("katas16", kata16());
 
 function kata17() {
     let result = sampleArray[0];
     for(i = 1; i < sampleArray.length; i++){
         if(sampleArray[i] < result) result = sampleArray[i];
     }
-    showResult("katas17", result);
+    return result;
+    
 }
-kata17()
+showResult("katas17", kata17());
 
 function kata18() {
     let result = sampleArray[0];
     for(i = 1; i < sampleArray.length; i++){
         if(sampleArray[i] > result) result = sampleArray[i];
     }
-    showResult("katas18", result);
+    return result;
+    
 }
-kata18()
+showResult("katas18", kata18());
 
 /**
  * Daqui em diante são os bônus, por sua conta e risco
